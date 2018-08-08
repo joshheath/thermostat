@@ -10,7 +10,6 @@ $(document).ready(function() {
     })
   })
 
-
   $('#temperature-up').click(function(){
     thermostat.up();
     updateTemperature();
@@ -37,10 +36,6 @@ $(document).ready(function() {
     $('#power-saving-status').text('off')
     updateTemperature();
   });
-
-  // function updateTemperature(){
-  //   $('#temperature').text(thermostat.temperature);
-  // };
 
   function updateTemperature(){
     $('#temperature').text(thermostat.temperature);

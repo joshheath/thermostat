@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Thermostat</title>
-    <link rel="stylesheet" href="tempcolours.css"/>
+    <link rel="stylesheet" href="thermostat.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
@@ -10,34 +10,30 @@
       <h1>Current temperature: <span id="current-temperature"></span></h1>
     </section> -->
     <section>
-      <h1> Thermostat - set the temperature! </h1>
+      <h1> Thermostat</h1>
       <h2 id="temperature"></h2>
       <p>
         <button id="temperature-up">+</button>
         <button id="temperature-down">-</button>
         <button id="temperature-reset">reset</button>
-        power saving mode is <span id="power-saving-status">on</span>
+        <br>
+        <br>
+
+        <h1>Power Saving Mode is:<br> <span id="power-saving-status">on</span></h1>
+      
         <button id="powersaving-on">PSM on</button>
         <button id="powersaving-off">PSM off</button>
       </p>
     </section>
-<!-- 
-    <section>
-      <h1>Select a city to see the current temperature: <span id="current-temperature"></span></h1>
-      <select id="current-city">
-        <option value="london">London</option>
-        <option value="newyork">New York</option>
-        <option value="paris">Paris</option>
-        <option value="tokyo">Tokyo</option>
-      </select>
-    </section> -->
 
     <section>
-      <h1>Current temperature: <span id="current-temperature">20</span></h1>
+      <h1> Select a city to find out its temperature </h1>
       <form id="select-city">
         <input id="current-city" type="text" placeholder="Enter a city"></input>
         <input type="submit"></input>
       </form>
+
+      <h1>Current temperature: <span id="current-temperature"></span></h1>
     </section>
 
     <script src="src/thermostat.js"></script>
