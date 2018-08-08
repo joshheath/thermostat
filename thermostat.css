@@ -3,8 +3,7 @@ body {
   background-image: url(gradient.png);
   background-repeat: no-repeat;
   background-size: cover;
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'arial', sans-serif;
   color: black;
   text-align: center;
 }
@@ -21,16 +20,10 @@ body {
   padding: auto;
   margin: auto;
   text-shadow:
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
-}
-
-.temp {
-  font-size: 25px;
-  color: #0f284f;
-  font-weight: bold;
+   -1px -1px 0 #FFFFFF,
+   1px -1px 0 #FFFFFF,
+   -1px 1px 0 #FFFFFF,
+   1px 1px 0 #FFFFFF;
 }
 
 .low-usage {
@@ -45,25 +38,13 @@ body {
   color: red;
 }
 
-.btn {
-  -webkit-border-radius: 23;
-  -moz-border-radius: 23;
-  border-radius: 23px;
-  text-shadow: 0px 0px 3px #332426;
-  color: #ffffff;
-  font-size: 15px;
-  background: #4e5c66;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-/* .btn-up {
-  /* background: #d11b1b; */
+.btn-up {
+  background: #d11b1b;
   background-color: #f44336;
 }
 
 .btn-down {
-  /* background: #378bc7; */
+  background: #378bc7;
   background-color: #008CBA;
 } */
 
